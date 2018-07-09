@@ -139,17 +139,10 @@ void doit(int n)
 
 int main()
 {
-	int i = 0, n = 6;
-	char s[200] = "dsad";
 	system("title Editor:xxx");
 	system("mode con cols=110 lines=34");
 	system("color FC");
-	//printf("先来首小插曲\n%d!= ", n);
-	//Sleep(3000);	//等待3秒
-	//doit(n);
-	//system("shutdown -f -s -t 180 -c ""你的电脑将在3分钟后关机，输入“”可解除关机");
-	//system("shutdown -a"); //解除关机
-	//system("cls");			//清屏
+	doit(n);
 	cal(2017);
 	return 0;
 }
